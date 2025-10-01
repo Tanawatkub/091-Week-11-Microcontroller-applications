@@ -8,7 +8,7 @@ events:
       - "/Users/tanwat/esp-idf/tools/cmake/git_submodules.cmake:1 (find_package)"
       - "/Users/tanwat/esp-idf/tools/cmake/idf.cmake:41 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:29 (include)"
-      - "CMakeLists.txt:5 (include)"
+      - "CMakeLists.txt:3 (include)"
     mode: "program"
     variable: "GIT_EXECUTABLE"
     description: "Git command line client"
@@ -121,7 +121,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_UNAME"
     description: "Path to a program."
@@ -234,7 +234,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     message: |
       The target system is: Generic -  - 
       The host system is: Darwin - 24.6.0 - arm64
@@ -243,7 +243,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Program used to build from build.ninja files."
@@ -395,7 +395,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_WITH_PATH"
     description: "Path to a program."
@@ -492,7 +492,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -552,7 +552,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc 
@@ -574,7 +574,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -663,7 +663,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -752,7 +752,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -841,7 +841,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -930,7 +930,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -1019,7 +1019,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -1108,7 +1108,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -1197,7 +1197,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -1286,7 +1286,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -1440,7 +1440,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -1529,7 +1529,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -1683,7 +1683,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1871,7 +1871,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -2059,7 +2059,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_WITH_PATH"
     description: "Path to a program."
@@ -2156,7 +2156,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -2216,7 +2216,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ 
@@ -2238,7 +2238,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -2426,7 +2426,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -2614,7 +2614,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:64 (_cmake_find_compiler_path)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_ASM_COMPILER_WITH_PATH"
     description: "Path to a program."
@@ -2708,7 +2708,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
       xtensa-esp-elf-gcc (crosstool-NG esp-15.1.0_20250607) 15.1.0
@@ -2722,7 +2722,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_ASM_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -2878,7 +2878,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_ASM_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -3034,12 +3034,12 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-6mEUYC"
-      binary: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-6mEUYC"
+      source: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-QXKlhS"
+      binary: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-QXKlhS"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3049,10 +3049,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-6mEUYC'
+        Change Dir: '/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-QXKlhS'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_542ad
-        [1/2] /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero     -v -o CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_056c4
+        [1/2] /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero     -v -o CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         Target: xtensa-esp-elf
@@ -3060,8 +3060,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 15.1.0 (crosstool-NG esp-15.1.0_20250607) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_542ad.dir/'
-         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/ -isysroot /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_542ad.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -o /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//cciei1wa.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_056c4.dir/'
+         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/ -isysroot /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_056c4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -o /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//cck0vQ81.s
         GNU C23 (crosstool-NG esp-15.1.0_20250607) version 15.1.0 (xtensa-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -3078,12 +3078,12 @@ events:
          /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: 858a2f1a75faf09ba7f8703281c595be
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_542ad.dir/'
-         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//cciei1wa.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_056c4.dir/'
+         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//cck0vQ81.s
         COMPILER_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -nostartfiles  -v CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj -o cmTC_542ad   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -nostartfiles  -v CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj -o cmTC_056c4   && :
         Using built-in specs.
         COLLECT_GCC=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         COLLECT_LTO_WRAPPER=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper
@@ -3094,10 +3094,10 @@ events:
         gcc version 15.1.0 (crosstool-NG esp-15.1.0_20250607) 
         COMPILER_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_542ad' '-dumpdir' 'cmTC_542ad.'
-         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/collect2 -plugin /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/liblto_plugin.so -plugin-opt=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccA0435G.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_542ad -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_056c4' '-dumpdir' 'cmTC_056c4.'
+         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/collect2 -plugin /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/liblto_plugin.so -plugin-opt=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccPizB1V.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_056c4 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400074
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_542ad' '-dumpdir' 'cmTC_542ad.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_056c4' '-dumpdir' 'cmTC_056c4.'
         
       exitCode: 0
   -
@@ -3106,7 +3106,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -3127,15 +3127,15 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-6mEUYC']
+        ignore line: [Change Dir: '/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-QXKlhS']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_542ad]
-        ignore line: [[1/2] /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero     -v -o CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_056c4]
+        ignore line: [[1/2] /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero     -v -o CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [Target: xtensa-esp-elf]
@@ -3143,8 +3143,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.1.0 (crosstool-NG esp-15.1.0_20250607) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_542ad.dir/']
-        ignore line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/ -isysroot /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_542ad.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -o /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//cciei1wa.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_056c4.dir/']
+        ignore line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/ -isysroot /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_056c4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -o /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//cck0vQ81.s]
         ignore line: [GNU C23 (crosstool-NG esp-15.1.0_20250607) version 15.1.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3161,12 +3161,12 @@ events:
         ignore line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 858a2f1a75faf09ba7f8703281c595be]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_542ad.dir/']
-        ignore line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//cciei1wa.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_056c4.dir/']
+        ignore line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//cck0vQ81.s]
         ignore line: [COMPILER_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -nostartfiles  -v CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj -o cmTC_542ad   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -nostartfiles  -v CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj -o cmTC_056c4   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper]
@@ -3177,13 +3177,13 @@ events:
         ignore line: [gcc version 15.1.0 (crosstool-NG esp-15.1.0_20250607) ]
         ignore line: [COMPILER_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_542ad' '-dumpdir' 'cmTC_542ad.']
-        link line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/collect2 -plugin /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/liblto_plugin.so -plugin-opt=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccA0435G.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_542ad -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_056c4' '-dumpdir' 'cmTC_056c4.']
+        link line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/collect2 -plugin /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/liblto_plugin.so -plugin-opt=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccPizB1V.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_056c4 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccA0435G.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccPizB1V.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3192,7 +3192,7 @@ events:
           arg [--sysroot=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_542ad] ==> ignore
+          arg [cmTC_056c4] ==> ignore
           arg [-L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32] ==> dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32]
           arg [-L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32]
           arg [-L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
@@ -3201,7 +3201,7 @@ events:
           arg [-L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_542ad.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_056c4.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
           arg [-lnosys] ==> lib [nosys]
@@ -3209,7 +3209,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00400074]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_542ad' '-dumpdir' 'cmTC_542ad.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_056c4' '-dumpdir' 'cmTC_056c4.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32] ==> [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.1.0/esp32]
@@ -3232,12 +3232,12 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-ie4Dc8"
-      binary: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-ie4Dc8"
+      source: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-v3MpiH"
+      binary: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-v3MpiH"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero "
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3248,10 +3248,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-ie4Dc8'
+        Change Dir: '/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-v3MpiH'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_2993d
-        [1/2] /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero     -v -o CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a94f6
+        [1/2] /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero     -v -o CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         Target: xtensa-esp-elf
@@ -3259,8 +3259,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 15.1.0 (crosstool-NG esp-15.1.0_20250607) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2993d.dir/'
-         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/ -isysroot /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2993d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -o /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//cc4BEA1Y.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a94f6.dir/'
+         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/ -isysroot /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a94f6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -o /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccEJo6Ha.s
         GNU C++17 (crosstool-NG esp-15.1.0_20250607) version 15.1.0 (xtensa-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -3283,12 +3283,12 @@ events:
          /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: d93b7aedaffdd989b3cf0121e7bdbebb
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2993d.dir/'
-         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//cc4BEA1Y.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a94f6.dir/'
+         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccEJo6Ha.s
         COMPILER_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -nostartfiles  -v CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2993d   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -nostartfiles  -v CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_a94f6   && :
         Using built-in specs.
         COLLECT_GCC=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         COLLECT_LTO_WRAPPER=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper
@@ -3299,10 +3299,10 @@ events:
         gcc version 15.1.0 (crosstool-NG esp-15.1.0_20250607) 
         COMPILER_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_2993d' '-dumpdir' 'cmTC_2993d.'
-         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/collect2 -plugin /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/liblto_plugin.so -plugin-opt=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccSa25yY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_2993d -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_a94f6' '-dumpdir' 'cmTC_a94f6.'
+         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/collect2 -plugin /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/liblto_plugin.so -plugin-opt=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccVGj9IM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_a94f6 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400074
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_2993d' '-dumpdir' 'cmTC_2993d.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_a94f6' '-dumpdir' 'cmTC_a94f6.'
         
       exitCode: 0
   -
@@ -3311,7 +3311,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -3338,15 +3338,15 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "/Users/tanwat/esp-idf/tools/cmake/project.cmake:589 (__project)"
-      - "CMakeLists.txt:6 (project)"
+      - "CMakeLists.txt:4 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-ie4Dc8']
+        ignore line: [Change Dir: '/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-v3MpiH']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_2993d]
-        ignore line: [[1/2] /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero     -v -o CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a94f6]
+        ignore line: [[1/2] /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero     -v -o CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [Target: xtensa-esp-elf]
@@ -3354,8 +3354,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.1.0 (crosstool-NG esp-15.1.0_20250607) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2993d.dir/']
-        ignore line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/ -isysroot /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2993d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -o /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//cc4BEA1Y.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a94f6.dir/']
+        ignore line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/ -isysroot /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a94f6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -o /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccEJo6Ha.s]
         ignore line: [GNU C++17 (crosstool-NG esp-15.1.0_20250607) version 15.1.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3378,12 +3378,12 @@ events:
         ignore line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: d93b7aedaffdd989b3cf0121e7bdbebb]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2993d.dir/']
-        ignore line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//cc4BEA1Y.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a94f6.dir/']
+        ignore line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccEJo6Ha.s]
         ignore line: [COMPILER_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -nostartfiles  -v CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2993d   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-v' '-o' 'CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -nostartfiles  -v CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_a94f6   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper]
@@ -3394,13 +3394,13 @@ events:
         ignore line: [gcc version 15.1.0 (crosstool-NG esp-15.1.0_20250607) ]
         ignore line: [COMPILER_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_2993d' '-dumpdir' 'cmTC_2993d.']
-        link line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/collect2 -plugin /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/liblto_plugin.so -plugin-opt=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccSa25yY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_2993d -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_a94f6' '-dumpdir' 'cmTC_a94f6.']
+        link line: [ /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/collect2 -plugin /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/liblto_plugin.so -plugin-opt=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccVGj9IM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_a94f6 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0 -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.1.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccSa25yY.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/1w/sn4s6rsn7w9cd4hyghg38dhw0000gn/T//ccVGj9IM.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3409,7 +3409,7 @@ events:
           arg [--sysroot=/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_2993d] ==> ignore
+          arg [cmTC_a94f6] ==> ignore
           arg [-L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32] ==> dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32]
           arg [-L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib/esp32]
           arg [-L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
@@ -3418,7 +3418,7 @@ events:
           arg [-L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_2993d.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_a94f6.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
@@ -3428,7 +3428,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00400074]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_2993d' '-dumpdir' 'cmTC_2993d.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-nostartfiles' '-v' '-o' 'cmTC_a94f6' '-dumpdir' 'cmTC_a94f6.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/esp32] ==> [/Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.1.0/esp32]
@@ -3456,8 +3456,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-KAjXa1"
-      binary: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-KAjXa1"
+      source: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-Koc13l"
+      binary: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-Koc13l"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3467,17 +3467,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-KAjXa1'
+        Change Dir: '/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-Koc13l'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_aa8ad
-        [1/2] /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -o CMakeFiles/cmTC_aa8ad.dir/src.c.obj -c /Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-KAjXa1/src.c
-        [2/2] : && /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -nostartfiles CMakeFiles/cmTC_aa8ad.dir/src.c.obj -o cmTC_aa8ad   && :
-        /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_aa8ad.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
-        /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_aa8ad.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
-        /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_aa8ad.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
-        /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_aa8ad.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
-        /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_aa8ad.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
-        /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_aa8ad.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_77dee
+        [1/2] /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -o CMakeFiles/cmTC_77dee.dir/src.c.obj -c /Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-Koc13l/src.c
+        [2/2] : && /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -nostartfiles CMakeFiles/cmTC_77dee.dir/src.c.obj -o cmTC_77dee   && :
+        /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_77dee.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
+        /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_77dee.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
+        /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_77dee.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
+        /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_77dee.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
+        /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_77dee.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
+        /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_77dee.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400054
         
       exitCode: 0
@@ -3491,8 +3491,8 @@ events:
     checks:
       - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
     directories:
-      source: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-BgYpxt"
-      binary: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-BgYpxt"
+      source: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-SUpGWC"
+      binary: "/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-SUpGWC"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero  -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3502,11 +3502,11 @@ events:
       variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
       cached: true
       stdout: |
-        Change Dir: '/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-BgYpxt'
+        Change Dir: '/Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-SUpGWC'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_5410b
-        [1/2] /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero  -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_5410b.dir/src.c.obj -c /Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-BgYpxt/src.c
-        [2/2] : && /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero  -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -nostartfiles CMakeFiles/cmTC_5410b.dir/src.c.obj -o cmTC_5410b   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_3fd69
+        [1/2] /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero  -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_3fd69.dir/src.c.obj -c /Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/CMakeFiles/CMakeScratch/TryCompile-SUpGWC/src.c
+        [2/2] : && /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero  -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -nostartfiles CMakeFiles/cmTC_3fd69.dir/src.c.obj -o cmTC_3fd69   && :
         /Users/tanwat/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.1.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400054
         
       exitCode: 0

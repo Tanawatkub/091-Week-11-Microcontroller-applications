@@ -1,137 +1,0 @@
-Command: /Users/tanwat/.espressif/python_env/idf6.0_py3.13_env/bin/python /Users/tanwat/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-0001 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/tanwat/MICROCONTROLLER/091-Week-11-Microcontroller-applications/091-Week-11-Microcontroller-applications/LAB11-02/build/bootloader/bootloader.elf -m '/Users/tanwat/.espressif/python_env/idf6.0_py3.13_env/bin/python' '/Users/tanwat/esp-idf/tools/idf.py'
-ets Jul 29 2019 12:21:46
-
-rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
-configsip: 0, SPIWP:0xee
-clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
-mode:DIO, clock div:2
-load:0x3fff0030,len:6380
-ho 0 tail 12 room 4
-load:0x40078000,len:15916
-load:0x40080400,len:3860
-entry 0x40080638
-[0;32mI (29) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
-[0;32mI (29) boot: compile time Sep 24 2025 15:37:24[0m
-[0;32mI (29) boot: Multicore bootloader[0m
-[0;32mI (31) boot: chip revision: v3.1[0m
-[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
-[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
-[0;32mI (41) boot.esp32: SPI Flash Size : 2MB[0m
-[0;32mI (44) boot: Enabling RNG early entropy source...[0m
-[0;32mI (49) boot: Partition Table:[0m
-[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
-[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
-[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
-[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
-[0;32mI (77) boot: End of partition table[0m
-[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a65ch ( 42588) map[0m
-[0;32mI (103) esp_image: segment 1: paddr=0001a684 vaddr=3ffb0000 size=023f8h (  9208) load[0m
-[0;32mI (106) esp_image: segment 2: paddr=0001ca84 vaddr=40080000 size=03594h ( 13716) load[0m
-[0;32mI (112) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14c30h ( 85040) map[0m
-[0;32mI (143) esp_image: segment 4: paddr=00034c58 vaddr=40083594 size=09a1ch ( 39452) load[0m
-[0;32mI (159) esp_image: segment 5: paddr=0003e67c vaddr=50000000 size=00020h (    32) load[0m
-[0;32mI (165) boot: Loaded app from partition at offset 0x10000[0m
-[0;32mI (165) boot: Disabling RNG early entropy source...[0m
-[0;32mI (177) cpu_start: Multicore app[0m
-[0;32mI (185) cpu_start: Pro cpu start user code[0m
-[0;32mI (185) cpu_start: cpu freq: 160000000 Hz[0m
-[0;32mI (185) app_init: Application information:[0m
-[0;32mI (185) app_init: Project name:     11-2[0m
-[0;32mI (189) app_init: App version:      5a0da61-dirty[0m
-[0;32mI (193) app_init: Compile time:     Sep 24 2025 15:35:46[0m
-[0;32mI (198) app_init: ELF file SHA256:  e3f5b531a...[0m
-[0;32mI (203) app_init: ESP-IDF:          v5.5.1[0m
-[0;32mI (207) efuse_init: Min chip rev:     v0.0[0m
-[0;32mI (210) efuse_init: Max chip rev:     v3.99 [0m
-[0;32mI (214) efuse_init: Chip rev:         v3.1[0m
-[0;32mI (218) heap_init: Initializing. RAM available for dynamic allocation:[0m
-[0;32mI (225) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
-[0;32mI (230) heap_init: At 3FFB2CC8 len 0002D338 (180 KiB): DRAM[0m
-[0;32mI (235) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
-[0;32mI (240) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
-[0;32mI (246) heap_init: At 4008CFB0 len 00013050 (76 KiB): IRAM[0m
-[0;32mI (252) spi_flash: detected chip: generic[0m
-[0;32mI (255) spi_flash: flash io: dio[0m
-[0;33mW (258) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
-[0;33mW (270) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
-[0;32mI (278) main_task: Started on CPU0[0m
-[0;32mI (288) main_task: Calling app_main()[0m
-[0;32mI (288) ADC_LDR: eFuse Two Point: ไม่รองรับ[0m
-[0;32mI (288) ADC_LDR: eFuse Vref: รองรับ[0m
-[0;32mI (288) ADC_LDR: ใช้การปรับเทียบแบบ eFuse Vref[0m
-[0;32mI (298) ADC_LDR: ทดสอบเซนเซอร์แสง LDR ของ ESP32[0m
-[0;32mI (308) ADC_LDR: Pin: GPIO35 (ADC1_CH7)[0m
-[0;32mI (308) ADC_LDR: ช่วง: 0-3.3V[0m
-[0;32mI (308) ADC_LDR: ความละเอียด: 12-bit (0-4095)[0m
-[0;32mI (318) ADC_LDR: Attenuation: 11dB[0m
-[0;32mI (318) ADC_LDR: ------------------------[0m
->LDR1:2.20
->LDR1:2.17
->LDR1:2.18
->LDR1:2.16
->LDR1:2.30
->LDR1:2.24
->LDR1:2.18
->LDR1:2.17
->LDR1:2.18
->LDR1:2.18
->LDR1:2.18
->LDR1:2.18
->LDR1:2.18
->LDR1:2.18
->LDR1:2.18
->LDR1:2.20
->LDR1:2.18
->LDR1:2.18
->LDR1:2.17
->LDR1:2.17
->LDR1:2.17
->LDR1:2.17
->LDR1:2.17
->>LDR1:2.16
->LDR1:2.17
->>LDR1:2.16>>LDR1:2.16>>LDR1:2.16
->LDR1:2.16
->>LDR1:2.15
->LDR1:2.17
->LDR1:2.16
->LDR1:2.18
->LDR1:0.98
->>LDR1:0.53
->>LDR1:3.09
->>LDR1:3.12
->>LDR1:3.03>LDR1:3.12
->LDR1:3.12
->>LDR1:2.21
->LDR1:1.99
->>LDR1:0.61>>LDR1:0.61>>LDR1:0.68>>LDR1:2.00>>LDR1:1.94
->>LDR1:2.10>>LDR1:2.11>>LDR1:2.12>>LDR1:2.15>LDR1:2.18
->>LDR1:2.09>>LDR1:2.14
->>LDR1:2.16
->>LDR1:2.15
->>LDR1:2.15
->>LDR1:2.18
->LDR1:2.15
->>LDR1:2.16>>LDR1:1.80
->>LDR1:1.84>LDR1:1.82
->>LDR1:1.83
->LDR1:1.83
->>LDR1:1.92>LDR1:1.82
->LDR1:1.75
->LDR1:1.76
->LDR1:1.76
->>LDR1:1.77
->>LDR1:1.78
->LDR1:1.78
->LDR1:1.78
->LDR1:1.78
->>LDR1:1.78
->LDR1:1.75
->>LDR1:1.76
->>LDR1:1.79
->>LDR1:1.30
->>LDR1:1.46>>LDR1:1.47>LDR1:1.44
->>LDR1:1.42
->>LDR1:2.16
->LDR1:2.22
->LDR1:2.47
